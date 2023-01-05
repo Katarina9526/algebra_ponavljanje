@@ -99,101 +99,130 @@
     </style>
   </div>
 
-  
-  <iframe width="560" height="315" style="margin-top: 100px;" src="https://www.youtube.com/embed/k9WqpQp8VSU?autoplay=1&mute=1"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
+
+  <iframe width="560" height="315" style="margin-top: 100px;"
+    src="https://www.youtube.com/embed/k9WqpQp8VSU?autoplay=1&mute=1" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
   </iframe>
 
   <div>
-  <h1>Sign up for free</h1>
-  <form action="/" method="post">
-    <label>First name</label>
-    <input type="text" required autocomplete="off"/>
-    <br>
-    <label>Last name</label>
-    <input type="text" required autocomplete="off"/>
-    <br>
-    <label>Email addres</label>
-    <input type="email" required autocomplete="off"/>
-    <br>
-    <label>Set a password</label>
-    <input type="password" required autocomplete="off"/><br>
-    <button type="submit">Get started</button>
-    <br>
+    <h1>Sign up for free</h1>
+    <form action="/" method="post">
+      <label>First name</label>
+      <input type="text" required autocomplete="off" />
+      <br>
+      <label>Last name</label>
+      <input type="text" required autocomplete="off" />
+      <br>
+      <label>Email addres</label>
+      <input type="email" required autocomplete="off" />
+      <br>
+      <label>Set a password</label>
+      <input type="password" required autocomplete="off" /><br>
+      <button type="submit">Get started</button>
+      <br>
+    </form>
+  </div>
+
+  <div>
+    <h1>Welcome back!</h1>
+    <form action="/" method="post">
+      <label>Email Address</label>
+      <input type="email" required autocomplete="off" />
+      <br>
+      <label>Password</label>
+      <input type="password" required autocomplete="off" />
+      <br>
+      <p><a href="#">Forgot password</a></p>
+      <br>
+      <button>log in</button>
+    </form>
+  </div>
+
+  <h1>Responzivna forma</h1>
+  <div>
+    <form action="#">
+      <div>
+        <div>
+          <label for="fname">Ime i prezime</label>
+        </div>
+        <div>
+          <input type="text" id="fname" name="firstname">
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="lname">Email</label>
+        </div>
+        <div>
+          <input type="text" id="lname" name="lastname">
+        </div>
+      </div>
+  </div>
+  <div>
+    <div>
+      <label for="subject">Poruka</label>
+    </div>
+    <div>
+      <textarea id="subject" name="subject" style="height:200px"></textarea>
+    </div>
+  </div>
   </form>
   </div>
 
- <div>
-  <h1>Welcome back!</h1>
-  <form action="/" method="post">
-    <label>Email Address</label>
-    <input type="email" required autocomplete="off"/>
-    <br>
-    <label>Password</label>
-    <input type="password" required autocomplete="off"/>
-    <br>
-    <p><a href="#">Forgot password</a></p>
-    <br>
-    <button>log in</button>
-  </form> 
- </div>
-
- <h1>Responzivna forma</h1>
-<div>
-  <form action="#">
-    <div>
-      <div>
-        <label for="fname">Ime i prezime</label>
-      </div>
-      <div>
-        <input type="text" id="fname" name="firstname">
-      </div>
-    </div>
-    <div>
-      <div>
-        <label for="lname">Email</label>
-      </div>
-      <div>
-        <input type="text" id="lname" name="lastname">
-      </div>
-    </div>
-    </div>
-    <div>
-      <div>
-        <label for="subject">Poruka</label>
-      </div>
-      <div>
-        <textarea id="subject" name="subject"style="height:200px"></textarea>
-      </div>
-    </div>
-  </form>
-</div>
-
-<div>
-  <fieldset>
-   <legend id="title5">Odaberi:</legend>
-
   <div>
-    <input id="radiofield5_0" name="field5" type="hidden" value="">
-   <div>
-    <input id="Field5_0" name="Field5" type="radio" value="PrviOdabir" tabindex="5" checked="checked">
-    <label for="Field5_0">Prvi odabir</label>
-  </div>
-  <div>
-    <input id="Field5_1" name="field5" type="radio" value="DrugiOdabir" tabindex="6">
-    <label for="Field5_1">Drugi odabir</label>
-  </div>
-  <div>
-    <input id="Field5_2" name="field5" type="radio" value="TrećiOdabir" tabindex="7">
-    <label for="Field5_2">Treći odabir</label>
-  </div>
-</div>
-</fieldset>
+    <fieldset>
+      <legend id="title5">Odaberi:</legend>
 
+      <div>
+        <input id="radiofield5_0" name="field5" type="hidden" value="">
+        <div>
+          <input id="Field5_0" name="Field5" type="radio" value="PrviOdabir" tabindex="5" checked="checked">
+          <label for="Field5_0">Prvi odabir</label>
+        </div>
+        <div>
+          <input id="Field5_1" name="field5" type="radio" value="DrugiOdabir" tabindex="6">
+          <label for="Field5_1">Drugi odabir</label>
+        </div>
+        <div>
+          <input id="Field5_2" name="field5" type="radio" value="TrećiOdabir" tabindex="7">
+          <label for="Field5_2">Treći odabir</label>
+        </div>
+      </div>
+    </fieldset>
 
-  
+    <div>
+      <fieldset>
+        <legend id="title6">Višestruki odabir:</legend>
+
+        <div>
+          <input id="radiofield6_0" name="field6" type="hidden" value="">
+          <div>
+            <input id="Field6_0" name="Field5" type="checkbox" value="PrviOdabir" tabindex="8">
+            <label for="Field6_0">Prvo</label>
+          </div>
+          <div>
+            <input id="Field6_1" name="field6" type="checkbox" value="DrugiOdabir" tabindex="9">
+            <label for="Field6_1">Drugo</label>
+          </div>
+          <div>
+            <input id="Field6_2" name="field6" type="checkbox" value="TrećiOdabir" tabindex="10">
+            <label for="Field6_2">Treće</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <form action="#">
+        <label for="">Odaberi s liste</label><br>
+        <select name="list" id="list">
+          <option value="volvo">Prvi-1</option>
+          <option value="saab">Drugi</option>
+          <option value="opel">Treći</option>
+        </select><br>
+        <input type="submit" value="Potvrdi">
+      </form>
+
 
 </body>
 
