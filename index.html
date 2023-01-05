@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algebra_ponavljanje</title>
-    <a href="./list.html"></a>
-    <a href="./table.html"></a>
-    <a href="./table2.html"></a>
-    <a href="./table3.html"></a>
-    <a href="./table4.html"></a>
-    <a href="./div.html"></a>
-    <a href="./div2.html"></a>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algebra_ponavljanje</title>
+  <a href="./list.html"></a>
+  <a href="./table.html"></a>
+  <a href="./table2.html"></a>
+  <a href="./table3.html"></a>
+  <a href="./table4.html"></a>
+  <a href="./div.html"></a>
+  <a href="./div2.html"></a>
 </head>
 <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333333;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111111;
-    }
-    </style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+</style>
+
 <body>
-    <h1>Zoo store</h1>
-    <header>
-        <ul>
-            <li><a href="#AboutUs">About Us</a></li>
-            <li><a href="#Contact Us">Contact Us</a></li>
-            <li><a href="#News">News</a></li>
-            <li><a href="#Animals">Animals</a></li>
-        </ul>
-    </header>
+  <h1>Zoo store</h1>
+  <header>
+    <ul>
+      <li><a href="#AboutUs">About Us</a></li>
+      <li><a href="#Contact Us">Contact Us</a></li>
+      <li><a href="#News">News</a></li>
+      <li><a href="#Animals">Animals</a></li>
+    </ul>
+  </header>
 
-    <section>
-        <h2>About Us</h2>
-      <figure> 
-        <img src="./images/OIP.jpg" alt="dog picture" width="250pxpx">
-        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error assumenda nemo excepturi! Sint eveniet molestias, explicabo illo magnam tenetur, expedita possimus debitis aspernatur soluta earum sed ipsa eligendi voluptate.</figcaption>
-      </figure>
-      <figure>
-        <img src="./images/R (1).jpg" alt="cat picture" width="250pxpx" height="140px">
-      <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit ad, odio atque temporibus quisquam cumque  numquam asperiores eligendi laudantium expedita et aspernatur quasi, adipisci, at modi cum ea eius?</figcaption>  
-      </figure>
-      <figure>
-        <img src="./images/R.jpg" alt="cat picture" width="250px" height="140px">
-      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt incidunt repellendus officiis placeat tenetur suscipit, explicabo, dignissimos, delectus voluptatum corrupti unde tempora dolorem ipsam totam nihil sit expedita ipsa. Nisi?</figcaption>    
-      </figure>  
-    </section>
+  <section>
+    <h2>About Us</h2>
+    <figure>
+      <img src="./images/OIP.jpg" alt="dog picture" width="250pxpx">
+      <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error assumenda nemo excepturi! Sint
+        eveniet molestias, explicabo illo magnam tenetur, expedita possimus debitis aspernatur soluta earum sed ipsa
+        eligendi voluptate.</figcaption>
+    </figure>
+    <figure>
+      <img src="./images/R (1).jpg" alt="cat picture" width="250pxpx" height="140px">
+      <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit ad, odio atque temporibus
+        quisquam cumque numquam asperiores eligendi laudantium expedita et aspernatur quasi, adipisci, at modi cum ea
+        eius?</figcaption>
+    </figure>
+    <figure>
+      <img src="./images/R.jpg" alt="cat picture" width="250px" height="140px">
+      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt incidunt repellendus officiis
+        placeat tenetur suscipit, explicabo, dignissimos, delectus voluptatum corrupti unde tempora dolorem ipsam totam
+        nihil sit expedita ipsa. Nisi?</figcaption>
+    </figure>
+  </section>
 
-    
+  <div class="mapouter">
+    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Algebra Osijek&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+    <style>
+      .mapouter {
+        position: relative;
+        text-align: right;
+        width: 100%;
+        height: 400px;
+      }
+
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 100%;
+        height: 400px;
+      }
+
+      .gmap_iframe {
+        height: 400px !important;
+      }
+    </style>
+  </div>
+
+  <iframe width="420" height="345" src="https://youtube.com/embed/LXsdt6RMNfY?autoplay=1&mute=1" style="margin-top: 100px;">
+  </iframe>
+
 </body>
+
 </html>
