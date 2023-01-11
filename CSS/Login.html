@@ -54,15 +54,33 @@
         float: right;
         padding-top: 16px;
     }
+
+    .container {
+        padding: 16px;
+    }
+
+    /* Extra mali ekrani - fix
+    Promjena stila za span i odustani button */
+
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+
+        .cancelbtn {
+            width: 100%;
+        }
+    }
 </style>
 
 <body>
-    <h2>Login Forma</h2>
+    <h2>Prijavi se</h2>
     <form action="/" method="post">
         <div>
             <img src="../images/flat-faces-icons-circle-woman-7-940x940.png">
         </div>
-        <div>
+        <div class="container">
             <label for="uname"><b>Korisničko ime</b></label>
             <input type="text" placeholder="Unesite korisničko ime" name="uname" required>
             <label for="psw"><b>Lozinka</b></label>
@@ -73,7 +91,7 @@
             </label>
         </div>
 
-        <div>
+        <div class="container" style="background-color: #f1f1f1;">
             <button class="cancelbtn" type="button">Odustani</button>
             <span class="psw">Zaboravljena <a href="#">Lozinka?</a></span>
         </div>
