@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 3</title>
+</head>
+<style>
+    hr {
+        border-top: 2px dotted red;
+    }
+
+    p::first-letter {
+        color: blue;
+        font-size: 30px;
+    }
+
+    .list1 {
+        list-style-type: lower-alpha;
+    }
+
+    .list2 {
+        list-style-type: upper-alpha;
+    }
+
+    span::after {
+        content: "\2713";
+        color: black;
+
+    }
+
+    ::marker {
+        color: red;
+    }
+
+    a:visited {
+        color: magenta;
+    }
+
+    a:hover {
+        color: yellow;
+        background-color: lightgreen;
+    }
+
+    a:active {
+        color: lightgreen;
+        background-color: yellow;
+    }
+
+    a::before {
+        content: "\2023";
+    }
+
+    ul {
+        color: red;
+    }
+
+    a::before {
+        content: "\2023";
+        
+    }
+</style>
+
+<body>
+    <h1>Zadatak 1</h1>
+
+    <section>
+        <div style="border: 1px solid grey;">
+            <p>1 Koji je glavni grad Hrvatske</p>
+            <ol class="list2">
+                <li>Koprivnica</li>
+                <li>Osijek</li>
+                <li><span> Zagreb</span></li>
+                <li>Rijeka</li>
+            </ol>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div style="border: 1px solid grey;">
+            <p>2 Koja je rijeka koja protječe kroz Hrvatsku najduža?</p>
+            <ol class="list1">
+                <li>Mura</li>
+                <li><span>Sava</span></li>
+                <li>Drava</li>
+                <li>Dunav</li>
+            </ol>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div style="border: 1px solid grey;">
+            <p>3 Pogledajte sljedeće video linkove</p>
+            <ul>
+                <li><a href="https://google.com/" target="_blank">Play bass guitar</a></li>
+                <li><a href="https://www.algebra.com/">Stop eating sugar</a></li>
+                <li>Treći</li>
+                <li>Četvrti</li>
+                <li>Peti</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+</body>
+
+</html>
