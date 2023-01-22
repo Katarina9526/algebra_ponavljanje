@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak5</title>
+  </head>
+  <style>
+    body {
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
+    }
+
+    .div1 {
+      background-color: white;
+      width: 600px;
+      height: 850px;
+      margin: auto;
+    }
+
+    .div1::before {
+      content: '';
+      background-color: red;
+      height: 30px;
+      top: 38.5px;
+      left: 0;
+      right: calc(50% + (600px / 2));
+      position: absolute;
+    }
+
+    .div1::after {
+      content: '';
+      background-color: green;
+      height: 30px;
+      top: 38.5px;
+      left: calc(50% + (600px / 2));
+      right: 0;
+      position: absolute;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 50px;
+      line-height: 1.8;
+    }
+
+    .div2 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      height: 31px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top: 40px;
+    }
+  </style>
+  <body>
+    <div class="div1">
+      <div class="div2">
+        <h2>Traka pune širine s pseudo elementima</h2>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        aliquid<br />
+        harum amet soluta delectus veniam repudiandae ab numquam eligendi! Ipsum
+        culpa ea repellat perspiciatis ratione minus dolorum rem? Vero, veniam.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        aliquid<br />
+        harum amet soluta delectus veniam repudiandae ab numquam eligendi! Ipsum
+        culpa ea repellat perspiciatis ratione minus dolorum rem? Vero, veniam.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        aliquid<br />
+        harum amet soluta delectus veniam repudiandae ab numquam eligendi! Ipsum
+        culpa ea repellat perspiciatis ratione minus dolorum rem? Vero, veniam.
+      </p>
+      <img src="download.png" alt="algebra logo" />
+    </div>
+  </body>
+</html>
