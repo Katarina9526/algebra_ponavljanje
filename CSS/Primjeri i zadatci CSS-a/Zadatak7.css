@@ -70,10 +70,11 @@ div.header-line {
   padding: 10px;
   border-bottom: 1px solid greenyellow;
   display: block;
-  font-size: 13px;
+  font-size: 20px;
   color: whitesmoke;
   cursor: pointer;
   user-select: none;
+  height: 50px;
 }
 
 .tabs-container label:hover {
@@ -120,3 +121,12 @@ input[name="tab"]:checked + .tab-content {
         opacity: 1;
     }
 }
+
+img {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
