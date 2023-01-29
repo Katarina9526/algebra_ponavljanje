@@ -21,7 +21,7 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    height: 60px !important;
+    height: 60px;
     overflow: hidden;
     z-index: 10;
 }
@@ -72,7 +72,7 @@ body {
     color: rgba(255, 255, 255, 0.50);
 }
 
-.sidebarMenuInner li:hover {
+.sidebarMenuInner label:hover {
     background: rgba(255, 255, 255, 0.10);
 }
 
@@ -174,9 +174,6 @@ input[name="tab"] {
     clear: both;
 }
 
-.tabs-container label:hover {
-    background: darkslateblue;
-}
 
 input[name="tab"]:checked + .tab-content {
     display: block;
