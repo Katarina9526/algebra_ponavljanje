@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50px;
+    left: 100px;
+}
+
+#div-1 {
+    background-color: black;
+}
+
+#div-2 {
+    transform: skew(50deg, -15deg);
+    background-color: tomato;
+    opacity: 0.8;
+}
